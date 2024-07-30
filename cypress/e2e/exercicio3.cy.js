@@ -16,8 +16,6 @@ describe('Exercicío 3', () => {
 
     it('Fluxo de login pelo ícone de mensagem no header com login válido', () => {
         cy.get('.header__message').click();
-        cy.get('[data-test="input-loginEmail"]').type('ana@email.com');
-        cy.get('[data-test="input-loginPassword"]').type('Senha123');
-        cy.get('[data-test="submit-button"]').click();
+        cy.login('ana@email.com', 'Senha123');
     })
   })

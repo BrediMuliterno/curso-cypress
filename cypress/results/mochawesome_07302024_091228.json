@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-07-30T12:12:24.174Z",
+    "end": "2024-07-30T12:12:28.234Z",
+    "duration": 4060,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1d03ecf4-b77b-4e2e-bae0-b0ca353bb6db",
+      "title": "",
+      "fullFile": "cypress\\e2e\\exercicio1.cy.js",
+      "file": "cypress\\e2e\\exercicio1.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "eef1ad83-00ac-4bfb-82ea-6b018547fa71",
+          "title": "Exercicío 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Testar o botão \"Ver pets disponíveis para adoção”",
+              "fullTitle": "Exercicío 1 Testar o botão \"Ver pets disponíveis para adoção”",
+              "timedOut": null,
+              "duration": 758,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.button').click();",
+              "err": {},
+              "uuid": "72b06d30-aadd-454d-95d2-e93bd5a53c00",
+              "parentUUID": "eef1ad83-00ac-4bfb-82ea-6b018547fa71",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Tester o botão home",
+              "fullTitle": "Exercicío 1 Tester o botão home",
+              "timedOut": null,
+              "duration": 208,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.header__home').click();",
+              "err": {},
+              "uuid": "a16c9d34-141e-4780-a604-94ab31ef5632",
+              "parentUUID": "eef1ad83-00ac-4bfb-82ea-6b018547fa71",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Carregar a pagina de /login",
+              "fullTitle": "Exercicío 1 Carregar a pagina de /login",
+              "timedOut": null,
+              "duration": 145,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://adopet-frontend-cypress.vercel.app/login');",
+              "err": {},
+              "uuid": "dc19215b-572a-4ade-8769-efc0ab212496",
+              "parentUUID": "eef1ad83-00ac-4bfb-82ea-6b018547fa71",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Carregar a pagina /home",
+              "fullTitle": "Exercicío 1 Carregar a pagina /home",
+              "timedOut": null,
+              "duration": 724,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://adopet-frontend-cypress.vercel.app/home');",
+              "err": {},
+              "uuid": "2ae7db1c-4c8a-40e0-9e77-c27f2f1c46ac",
+              "parentUUID": "eef1ad83-00ac-4bfb-82ea-6b018547fa71",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Carregar a pagina /home e clicar no botão \"Falar com responsável\"",
+              "fullTitle": "Exercicío 1 Carregar a pagina /home e clicar no botão \"Falar com responsável\"",
+              "timedOut": null,
+              "duration": 1000,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://adopet-frontend-cypress.vercel.app/home');\ncy.get('.card__contact').first().click();",
+              "err": {},
+              "uuid": "7e82535e-ee69-4bf5-9b7c-b58b5b9cc9e7",
+              "parentUUID": "eef1ad83-00ac-4bfb-82ea-6b018547fa71",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "72b06d30-aadd-454d-95d2-e93bd5a53c00",
+            "a16c9d34-141e-4780-a604-94ab31ef5632",
+            "dc19215b-572a-4ade-8769-efc0ab212496",
+            "2ae7db1c-4c8a-40e0-9e77-c27f2f1c46ac",
+            "7e82535e-ee69-4bf5-9b7c-b58b5b9cc9e7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2835,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
