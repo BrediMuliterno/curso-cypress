@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-07-30T12:21:17.410Z",
+    "end": "2024-07-30T12:21:21.302Z",
+    "duration": 3892,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ae7f16cc-a872-4f4a-b47e-b0346ba49226",
+      "title": "",
+      "fullFile": "cypress\\e2e\\exercicio3.cy.js",
+      "file": "cypress\\e2e\\exercicio3.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "28c7adaa-4f67-4f82-b152-653ab06df227",
+          "title": "Exercicío 3",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verifique se o title com o texto “AdoPet” está presente no html.",
+              "fullTitle": "Exercicío 3 Verifique se o title com o texto “AdoPet” está presente no html.",
+              "timedOut": null,
+              "duration": 504,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.title().should('eq', 'AdoPet');",
+              "err": {},
+              "uuid": "866bd32c-1537-4060-9e04-12eed47c7f59",
+              "parentUUID": "28c7adaa-4f67-4f82-b152-653ab06df227",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verificar se o texto \"Quem ama adota!\" está presente no html",
+              "fullTitle": "Exercicío 3 Verificar se o texto \"Quem ama adota!\" está presente no html",
+              "timedOut": null,
+              "duration": 484,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('p', 'Quem ama adota!').should('be.visible');",
+              "err": {},
+              "uuid": "54f89d88-60c7-4eca-a74c-e2327d04a86c",
+              "parentUUID": "28c7adaa-4f67-4f82-b152-653ab06df227",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verificar se o texto \"Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!\" está presente no html",
+              "fullTitle": "Exercicío 3 Verificar se o texto \"Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!\" está presente no html",
+              "timedOut": null,
+              "duration": 213,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('p', 'Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!').should('be.visible');",
+              "err": {},
+              "uuid": "de845d14-c989-45d6-994a-c036b9737bf3",
+              "parentUUID": "28c7adaa-4f67-4f82-b152-653ab06df227",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Fluxo de login pelo ícone de mensagem no header com login válido",
+              "fullTitle": "Exercicío 3 Fluxo de login pelo ícone de mensagem no header com login válido",
+              "timedOut": null,
+              "duration": 1240,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.header__message').click();\ncy.login('ana@email.com', 'Senha123');",
+              "err": {},
+              "uuid": "375a2c30-a641-47ef-9df7-a1d05f17a6b3",
+              "parentUUID": "28c7adaa-4f67-4f82-b152-653ab06df227",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "866bd32c-1537-4060-9e04-12eed47c7f59",
+            "54f89d88-60c7-4eca-a74c-e2327d04a86c",
+            "de845d14-c989-45d6-994a-c036b9737bf3",
+            "375a2c30-a641-47ef-9df7-a1d05f17a6b3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2441,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
