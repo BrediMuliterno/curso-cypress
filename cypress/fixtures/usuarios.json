@@ -1,0 +1,54 @@
+{
+    "usuarios":[
+        {
+            "name": "Sergio Moro",
+            "email": "sergio.moro@alura.com.br",
+            "password": "Senha12345"
+        },
+        {
+            "name": "Maria Silva",
+            "email": "maria.silva@alura.com",
+            "password": "MariaSenha789"
+        },
+        {
+            "name": "João Oliveira",
+            "email": "joao.oliveira@alura.com.br",
+            "password": "JoaoForte456"
+        },
+        {
+            "name": "Ana Souza",
+            "email": "ana.souza@alura.com",
+            "password": "Ana123"
+        },
+        {
+            "name": "Carlos Pereira",
+            "email": "carlos.pereira@alura.com.br",
+            "password": "CarlosSenha987"
+        },
+        {
+            "name": "Lucia Mendes",
+            "email": "lucia.mendes@alura.com",
+            "password": "Lucia789"
+        },
+        {
+            "name": "Fernando Lima",
+            "email": "fernando.lima@alura.com.br",
+            "password": "FernandoSenha654"
+        },
+        {
+            "name": "Patricia Rocha",
+            "email": "patricia.rocha@alura.com.br",
+            "password": "Patricia123"
+        },
+        {
+            "name": "Gabriel Costa",
+            "email": "gabriel.costa@alura.com.br",
+            "password": "Gabriel321"
+        },
+        {
+            "name": "Isabel Nunes",
+            "email": "isabel.nunes@alura.com.br",
+            "password": "IsabelSenha321"
+        }
+    ]
+}
