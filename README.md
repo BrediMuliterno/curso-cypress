@@ -2,7 +2,7 @@ Este projeto foi desenvolvido durante o curso de automatização de testes E2E c
 
 ## Nele você pode conferir
 
-- Scrtips desenvolvidos em aula e exercicios posteriores
+- Scritps desenvolvidos em aula e exercicios posteriores
 - Testes E2E
 - Mochawesome
 - Mocks e Stubs
