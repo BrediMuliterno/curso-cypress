@@ -1,4 +1,5 @@
 Este projeto foi desenvolvido durante o curso de automatização de testes E2E com Cypress da Alura
+Testes realizados na plataformar: https://adopet-frontend-cypress.vercel.app/
 
 ## Nele você pode conferir
 
